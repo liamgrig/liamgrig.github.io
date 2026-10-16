@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liam Grigorian | Portfolio</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+      color: #243247;
+      background: #f3f6fa;
+    }
+    header {
+      padding: 65px 24px;
+      background: #142c47;
+      color: white;
+      text-align: center;
+    }
+    h1 { margin: 0 0 16px; font-size: 42px; }
+    header p { max-width: 720px; margin: auto; }
+    nav {
+      padding: 16px;
+      background: white;
+      text-align: center;
+      border-bottom: 1px solid #dce3ed;
+    }
+    a { color: #1456a0; }
+    nav a {
+      display: inline-block;
+      margin: 4px 16px;
+      font-weight: bold;
+    }
+    a:hover { text-decoration-thickness: 3px; }
+    a:focus-visible { outline: 3px solid #d48700; }
+    main { max-width: 950px; margin: auto; padding: 24px; }
+    section { margin-bottom: 38px; scroll-margin-top: 20px; }
+    h2 { color: #142c47; }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding: 0;
+      list-style: none;
+    }
+    .skills li {
+      background: #e0eafa;
+      padding: 9px 16px;
+      border-radius: 20px;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+    }
+    article {
+      padding: 24px;
+      background: white;
+      border: 1px solid #dce3ed;
+      border-radius: 12px;
+    }
+    article h3 { margin-top: 0; }
+    footer {
+      padding: 24px;
+      text-align: center;
+      color: #526174;
+    }
+  </style>
+</head>
+<body>
+  <header id="about">
+    <h1>Liam Grigorian</h1>
+    <p>
+      I am a Rutgers University student studying Supply Chain Management
+      and Economics, focused on using data analysis and strategic thinking
+      to improve business operations.
+    </p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+  </nav>
+
+  <main>
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>Microsoft Excel</li>
+        <li>Data Analysis</li>
+        <li>Supply Chain Analysis</li>
+        <li>Project Planning</li>
+        <li>SQL</li>
+        <li>Team Leadership</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="projects">
+        <article>
+          <h3>[First project title]</h3>
+          <p>
+            [Explain the problem you addressed, what you did,
+            and the result or main takeaway in 2–3 sentences.]
+          </p>
+          <p><strong>Tools:</strong> [Tools or methods used]</p>
+        </article>
+
+        <article>
+          <h3>[Second project title]</h3>
+          <p>
+            [Explain the problem you addressed, what you did,
+            and the result or main takeaway in 2–3 sentences.]
+          </p>
+          <p><strong>Tools:</strong> [Tools or methods used]</p>
+        </article>
+
+        <article>
+          <h3>[Third project title]</h3>
+          <p>
+            [Explain the problem you addressed, what you did,
+            and the result or main takeaway in 2–3 sentences.]
+          </p>
+          <p><strong>Tools:</strong> [Tools or methods used]</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>Liam Grigorian | Personal Portfolio</footer>
+</body>
+</html>
